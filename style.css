@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@700&family=Oswald:wght@600&family=Roboto:ital,wght@0,400;1,300&display=swap');
+:root{
+
+/*paleta de cores do site*/
+--corfundo: white;
+--cortexto: black;
+--corprincipal: #014040;
+--corsecundaria: #027368; 
+--cordestaque: #A60303;
+
+/*largura do site*/
+
+--larguramaxima: 1000px;
+--larguraminima: 250px; 
+
+/*Fontes do site*/
+
+--fontegeral: 'Roboto', sans-serif;
+--fontetitulos: 'Inter', sans-serif;
+--fontedestaque: 'Oswald', sans-serif;
+
+}
+
+* {
+    margin: 0; /*magem externas*/
+    padding: 0; /*margem Internas*/
+}
+
+body {
+    
+    background-color: var(--corfundo);/*cor de fundo do site*/
+    font-family: var(--fontegeral);/*define a fonte padrao do site*/
+    color: var(--cortexto);/*define a cor do texto*/
+    
+    }
+
+    header, main, footer{
+
+max-width: var(--larguramaxima);/*Largura maxima do site*/
+min-width: var(--larguraminima);/*Largura minima do site*/
+background-color: aqua;/*Apagar depois*/
+margin: auto;
+padding: 10px;
+    }
+    #sociais{
+
+        background-color: red; /*apagar*/
+    width: 120px;
+    }
+
+    .social{
+width: 27px;
+    }
