@@ -38,13 +38,13 @@ body {
 
 max-width: var(--larguramaxima);/*Largura maxima do site*/
 min-width: var(--larguraminima);/*Largura minima do site*/
-background-color: aqua;/*Apagar depois*/
+background-color: rgb(5, 247, 226);/*Apagar depois*/
 margin: auto;
 padding: 10px;
     }
     #sociais{
 
-        background-color: red; /*apagar*/
+        background-color: rgb(241, 7, 7); /*apagar*/
     width: 120px;
     }
 
