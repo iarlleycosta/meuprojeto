@@ -51,3 +51,21 @@ padding: 10px;
     .social{
 width: 27px;
     }
+
+    #capa{
+width: 100%; /*Largura*/
+height: 275px; /*Altura*/
+background-color: var(--corprincipal); /*Cor de fundo*/
+background-image: url('images/bg-abstrato.jpg'); /*Defina a imagem do fundo da div*/
+background-repeat: no-repeat; /*Não repetir a imagem*/
+background-size: auto; /*ajusta a imagem da div*/
+background-position: 0px 0px; /*posiciona a imagem dentro da div*/
+display: flex; /*Elementos internos flexiveiss alinhados lado a lado*/
+flex-direction: column; /*Elementos um abaixo do outro*/
+justify-content: center;/*Alinhar horizontalmente*/
+align-items: center; /*Alinhar verticalmente*/
+
+    }
+
+
+
