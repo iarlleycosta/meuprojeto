@@ -58,7 +58,7 @@ transition: 0.4s;
     }
 
     .social:hover{
-        filter: invert(1) opacity(.7) drop-shadow( 0px 0px 0px var(--corprincipal))
+        filter: invert(1) opacity(.5) drop-shadow(10px 10px 3px #fff);
     }
     #capa{
 width: 100%; /*Largura*/
