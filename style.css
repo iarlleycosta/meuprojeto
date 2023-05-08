@@ -34,15 +34,15 @@ body {
     
     }
 
-    header, main, footer{
+header, main, footer{
+    max-width: var(--larguramaxima);/*Largura maxima do site*/
+    min-width: var(--larguraminima);/*Largura minima do site*/
+    /*background-color: rgb(8, 105, 97);Apagar depois*/
+    margin: auto;
+    padding: 0px 10px;
+    position: relative;
+}
 
-max-width: var(--larguramaxima);/*Largura maxima do site*/
-min-width: var(--larguraminima);/*Largura minima do site*/
-/*background-color: rgb(8, 105, 97);Apagar depois*/
-margin: auto;
-padding: 0px 10px;
-position: relative;
-    }
     #sociais{
 
     width: 130px;
