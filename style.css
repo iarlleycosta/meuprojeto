@@ -39,7 +39,7 @@ header, main, footer{
     min-width: var(--larguraminima);/*Largura minima do site*/
     /*background-color: rgb(8, 105, 97);Apagar depois*/
     margin: auto;
-    padding: 0px 10px;
+    padding: 2px 10px;
     position: relative;
 }
 
@@ -110,4 +110,10 @@ align-items: center; /*Alinhar verticalmente*/
 .menu:hover{
     text-decoration: underline;
     color: var(--corprincipal)
+}
+#capa h1{
+    color: rgb(11, 236, 225);
+}
+#capa p{
+    color: rgb(11, 236, 225);
 }
